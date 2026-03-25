@@ -1,0 +1,5 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    "dbt.dbtPythonPathOverride": "${workspaceFolder}/venv/bin/python",
+    "dbt.profilesDirOverride": "${workspaceFolder}"
+}
