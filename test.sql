@@ -1,0 +1,1 @@
+SELECT * FROM jaffle_shop.raw_orders;
