@@ -26,13 +26,13 @@ vars:
 
 seeds:
   jaffle_shop:
-    +schema: raw
+    +schema: dm_jaffle_shop
     jaffle-data:
       +enabled: "{{ var('load_source_data', false) }}"
 
 models:
   jaffle_shop:
     staging:
-      +materialized: view
+      +materialized: table
     marts:
       +materialized: table

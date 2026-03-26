@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: ecom
-    schema: raw
+    schema: dm_jaffle_shop
     description: E-commerce data for the Jaffle Shop
     tables:
       - name: raw_customers
@@ -10,7 +10,7 @@ sources:
       - name: raw_orders
         description: One record per order (consisting of one or more order items)
         loaded_at_field: ordered_at
-      - name: raw_items
+      - name: raw_order_items
         description: Items included in an order
       - name: raw_stores
         loaded_at_field: opened_at
